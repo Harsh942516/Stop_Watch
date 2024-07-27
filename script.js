@@ -1,4 +1,5 @@
 
+
 let startTime, elapsedTime = 0, interval;
 const display = document.getElementById('timer-display');
 const startButton = document.getElementById('start-btn');
@@ -34,4 +35,6 @@ function updateTime() {
                           (minutes < 10 ? '0' : '') + minutes + ':' +
                           (seconds < 10 ? '0' : '') + seconds;
 }
+
+
 
